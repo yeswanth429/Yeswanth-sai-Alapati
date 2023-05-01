@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5236814685837551670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2606718476774641721}
+  - component: {fileID: 8402398661480700129}
+  m_Layer: 0
+  m_Name: OpenAi.OpenAiImageReplace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2606718476774641721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236814685837551670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8402398661480700129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236814685837551670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fd1c7e2064804b29cda72a6a0315c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prompt: Bananna with legs doing a kickflip with a skateboard over a 10 stair
+  size: 0
+  texture: {fileID: 2800000, guid: 79d37b162bbdc864e8926c27f440f6f3, type: 3}
+  removeBackground: 0
+  textureNoBackground: {fileID: 2800000, guid: 9b8ef02e469f8de4fa7ef38687811a6a, type: 3}
+  samplePoints:
+    points:
+    - color: {r: 1, g: 1, b: 1, a: 1}
+      position: {x: 25.6, y: 25.6}
+      similarity: 0
+    - color: {r: 1, g: 1, b: 1, a: 1}
+      position: {x: 25.6, y: 230.4}
+      similarity: 0
+    - color: {r: 1, g: 1, b: 1, a: 1}
+      position: {x: 230.4, y: 25.6}
+      similarity: 0
+  colorSensitivity: 18
+  continuous: 0
+  featherSize: 1
+  featherAmount: 60
+  wrap: 0
+  textureWrapped: {fileID: 2800000, guid: 0f7a2f2aa6d56504e92b012c736da454, type: 3}
+  wrapSize: 50
+  previewGrid: 4
+  newTextureSize: 256x256
+  WARNING: ONLY WORKS AS COMPONENT
+  replace: 0
+  sprite:
+    single: {fileID: 0}
+    multiple: []
+  mesh:
+    single: {fileID: 0}
+    multiple: []
+  uiImage:
+    single: {fileID: 0}
+    multiple: []
+  requestPending: 0
+  isEditorWindow: 1
+  componentsInitialized: 0
